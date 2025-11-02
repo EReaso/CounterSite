@@ -42,3 +42,71 @@ button {
   border-radius: var(--border-radius-) 0 0 var(--border-radius-) !important;
   border: 1px solid black;
 }
+
+/* Keyboard Shortcuts Section */
+.shortcuts-info {
+  margin: 30px 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  max-width: 500px;
+}
+
+.shortcuts-info h2 {
+  font-family: sans-serif;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.shortcuts-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.shortcuts-info li {
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.shortcuts-info li:last-child {
+  border-bottom: none;
+}
+
+.shortcuts-info kbd {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  font-family: monospace;
+  font-size: 14px;
+  padding: 3px 6px;
+  margin: 0 2px;
+}
+
+/* Ad Container Styles */
+.ad-container {
+  margin: 20px 0;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ad-top {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.ad-middle {
+  margin: 30px 0;
+}
+
+.ad-bottom {
+  margin: 30px 0;
+}
