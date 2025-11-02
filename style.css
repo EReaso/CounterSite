@@ -88,25 +88,3 @@ button {
   padding: 3px 6px;
   margin: 0 2px;
 }
-
-/* Ad Container Styles */
-.ad-container {
-  margin: 20px 0;
-  min-height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.ad-top {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.ad-middle {
-  margin: 30px 0;
-}
-
-.ad-bottom {
-  margin: 30px 0;
-}
