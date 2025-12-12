@@ -21,7 +21,7 @@ div {
   }
 
   .shortcuts-info {
-    justify-self: start;
+    justify-self: end;
   }
 
   .counter-container {
