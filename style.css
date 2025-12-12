@@ -13,6 +13,7 @@ div {
 .container {
   padding: 10px;
   gap: 10px;
+  align-items: initial;
 }
 
 @media (width >= 500px) {
