@@ -24,6 +24,10 @@ div {
     order: -1;
     justify-self: start;
   }
+
+  .counter-container {
+    justify-self: center;
+  }
 }
 
 h1 {
