@@ -15,8 +15,8 @@ div {
 }
 
 @media (width >= 500px) {
-  .container {
-    flex-direction: row !important;
+  div.container {
+    flex-direction: row;
   }
 }
 
