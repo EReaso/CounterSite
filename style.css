@@ -4,11 +4,20 @@
 }
 
 div {
-  padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.container {
+  padding: 10px;
+}
+
+@media (width >= 500px) {
+  div {
+    flex-direction: row;
+  }
 }
 
 h1 {
