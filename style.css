@@ -12,6 +12,7 @@ div {
 
 .container {
   padding: 10px;
+  gap: 10px;
 }
 
 @media (width >= 500px) {
