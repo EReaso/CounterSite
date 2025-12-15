@@ -7,7 +7,7 @@
   background-color: var(--background-color);
 }
 
-div {
+body {
   gap: 1em;
   display: flex;
   flex-direction: column;
@@ -31,10 +31,6 @@ div {
   .shortcuts-info {
     justify-self: end;
     right: 10px;
-  }
-
-  .counter-container {
-    justify-self: center;
   }
 }
 
