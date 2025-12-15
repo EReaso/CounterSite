@@ -45,7 +45,7 @@ button:not(.btn_grp>button) {
 }
 
 button {
-  background: var(--foreground-color);
+  background: var(--background-color);
   padding: 0.5em;
   font-size: 50px;
   min-width: 1.5em;
