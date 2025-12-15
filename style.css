@@ -3,6 +3,8 @@
   user-select: none;
   --foreground-color: black;
   --background-color: white;
+  color: var(--foreground-color);
+  background-color: var(--background-color);
 }
 
 div {
@@ -59,12 +61,12 @@ button {
 
 .btn_grp>button:nth-last-child(1) {
   border-radius: 0 var(--border-radius-) var(--border-radius-) 0 !important;
-  border: 1px solid var(--background-color);
+  border: 1px solid var(--foreground-color);
 }
 
 .btn_grp>button:nth-child(1) {
   border-radius: var(--border-radius-) 0 0 var(--border-radius-) !important;
-  border: 1px solid var(--background-color);
+  border: 1px solid var(--foreground-color);
 }
 
 /* Keyboard Shortcuts Section */
@@ -74,6 +76,7 @@ button {
   background-color: #f5f5f5;
   border-radius: 10px;
   max-width: 500px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .shortcuts-info h2 {
@@ -102,7 +105,7 @@ button {
 }
 
 .shortcuts-info kbd {
-  background-color: #fff;
+  background-color: var(--background-color);
   border: 1px solid #ccc;
   border-radius: 3px;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
