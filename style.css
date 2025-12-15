@@ -1,6 +1,8 @@
 :root {
   --border-radius-: 40px;
   user-select: none;
+  --foreground-color: black;
+  --background-color: white;
 }
 
 div {
@@ -43,7 +45,7 @@ button:not(.btn_grp>button) {
 }
 
 button {
-  background: white;
+  background: var(--foreground-color);
   padding: 0.5em;
   font-size: 50px;
   min-width: 1.5em;
@@ -57,12 +59,12 @@ button {
 
 .btn_grp>button:nth-last-child(1) {
   border-radius: 0 var(--border-radius-) var(--border-radius-) 0 !important;
-  border: 1px solid black;
+  border: 1px solid var(--background-color);
 }
 
 .btn_grp>button:nth-child(1) {
   border-radius: var(--border-radius-) 0 0 var(--border-radius-) !important;
-  border: 1px solid black;
+  border: 1px solid var(--background-color);
 }
 
 /* Keyboard Shortcuts Section */
