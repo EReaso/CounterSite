@@ -29,8 +29,9 @@ document.querySelector("#plus").onclick = () => {
   counter.add();
 }
 
-document.querySelector("#minus").onclick = () => {
+document.querySelector("#minus").onclick = (e) => {
   counter.add(-1);
+  e.target.blur();
 }
 
 document.addEventListener("keydown", (e) => {
