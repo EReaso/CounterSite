@@ -50,4 +50,4 @@ document.addEventListener("keydown", (e) => {
   console.log(e.key)}
 })
 
-document.querySelector("#setcount-button").addEventListener("click", () => {counter.count = Number(prompt("Set count to:"))});
+document.querySelector("#setcount-button").addEventListener("click", () => { const num = prompt("Set count to:"); if (num) { counter.count = Number(num) } });
