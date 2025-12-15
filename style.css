@@ -15,6 +15,10 @@ body {
   align-items: center;
 }
 
+body>* {
+  margin: initial auto;
+}
+
 .container {
   padding: 10px;
   gap: 10px;
