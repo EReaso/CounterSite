@@ -12,7 +12,7 @@ class Counter {
       counter.textContent = this.count;
     }
 
-    document.title = `(${count}) ${title_text}`
+    document.title = `(${this.count}) ${title_text}`
 
     localStorage.setItem("count",num)
   }
