@@ -31,8 +31,11 @@ document.querySelector("#plus").onclick = () => {
 
 document.querySelector("#minus").onclick = (e) => {
   counter.add(-1);
-  e.target.blur();
 }
+
+document.addEventListener("onclick", (e) => {
+  e.target.blur();
+});
 
 document.addEventListener("keydown", (e) => {
   if (document.activeElement == document.querySelector("h1")) {
