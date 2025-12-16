@@ -11,6 +11,9 @@ class Counter {
     for (let counter of this.counters) {
       counter.textContent = this.count;
     }
+
+    document.title = `(${count}) ${title_text}`
+
     localStorage.setItem("count",num)
   }
 
@@ -22,6 +25,8 @@ class Counter {
     this.count = this.count + num;
   }
 }
+
+const title_text = document.querySelector("title").innerText;
 
 let counter = new Counter(document.querySelectorAll(".counter"));
 
