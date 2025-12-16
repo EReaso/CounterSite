@@ -28,6 +28,10 @@ body>* {
   display: flex;
 }
 
+.column {
+  flex-direction: column;
+}
+
 @media (width >= 500px) {
   div {
     flex-wrap: wrap;
