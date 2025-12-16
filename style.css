@@ -27,10 +27,8 @@ body>* {
 }
 
 @media (width >= 500px) {
-  div.container {
-    flex-direction: row;
-    align-items: center;
-
+  div {
+    flex-wrap: wrap;
   }
 
   .shortcuts-info {
