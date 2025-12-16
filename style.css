@@ -33,6 +33,10 @@ body>* {
 }
 
 @media (width >= 500px) {
+  body {
+    flex-direction: row;
+  }
+  
   div {
     flex-wrap: wrap;
   }
