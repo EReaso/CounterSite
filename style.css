@@ -32,7 +32,7 @@ body>* {
   flex-direction: column;
 }
 
-@media (width >= 500px) {
+/* @media (width >= 500px) {
   body {
     flex-direction: row;
   }
@@ -47,9 +47,8 @@ body>* {
 
   .shortcuts-info {
     justify-self: end;
-    right: 10px;
   }
-}
+} */
 
 h1 {
   font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
