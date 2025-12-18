@@ -8,7 +8,7 @@ class Counter {
 
   set count(num) {
     this.#count = num;
-    const displaytext = this.count === 6 || this.count === 7 ? "6 or 7" : this.count;
+    const displaytext = this.count === 6 ? "6 or 7" : this.count;
     for (let counter of this.counters) {
       counter.textContent = displaytext;
     }
