@@ -36,7 +36,11 @@ body>* {
   body {
     flex-direction: row;
   }
-  
+
+  .counter-container {
+    flex-basis: auto;
+  }
+
   div {
     flex-wrap: wrap;
   }
